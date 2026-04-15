@@ -9,6 +9,7 @@ public class Main {
         acc.withdraw(500);
         System.out.println("final amount"+" "+acc.getBalance());
         acc.setAccountHolderName("Guriya");
+        System.out.println(acc.getAccountNumber());
         System.out.println(acc.getAccountHolderName());
 
     }

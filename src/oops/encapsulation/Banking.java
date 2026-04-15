@@ -2,7 +2,7 @@ package oops.encapsulation;
 
 public class Banking {
   private String accountHolderName;
-  private String accountNumber;
+  private final String accountNumber;
   private double balance;
 
   public Banking(String accountHolderName,String accountNumber,double  balance)
